@@ -1,0 +1,203 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5rem;
+}
+
+h1{
+font-size: 2.5rem;
+text-align: center;
+}
+
+h3{
+font-size: 1rem;
+}
+
+h4{
+    font-size: 0.75rem;
+}
+
+.navbar{
+    font-size: 1rem;
+    background-color: rgba(245, 245, 245, 0.75);
+   
+    padding: 0.25rem;
+    --bs-navbar-toggler-border-color: none;
+    --bs-navbar-toggler-border-radius: none;
+    --bs-navbar-toggler-focus-width: none;
+    height: auto;
+}
+
+.navbar-brand {
+    font-size: 0.5rem;
+    padding-top: 0.25rem; 
+    padding-bottom: 0.25rem; 
+} 
+  .navbar-toggler-icon {
+    font-size: 0.5rem; 
+   
+  }
+  .offcanvas{
+    --bs-offcanvas-title-line-height: 1rem;
+  }
+
+  .offcanvas-body{
+    font-size: 0.5rem;
+  }
+  
+  
+  .offcanvas-header {
+    padding: 0.2rem 0.5rem; 
+  }
+  
+  .offcanvas-title {
+    font-size: 0.5rem; 
+  }
+
+  .main-container{
+    display: flex;  
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%; 
+  }
+
+  .color-image{
+    display: flex;
+    /* width: 50%; */
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 0;
+    
+
+  }
+
+  
+
+  .title-container{
+    /* width: 50%; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .quote{
+    text-transform: uppercase;
+    width: 25%;
+    margin: 2%;
+    margin-top: 10%;
+  }
+
+  .about-me{
+    width: 55%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 7%;
+  }
+
+  .skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    margin: 7%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .skills-container{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+
+  .progress-bar{
+    background-color: turquoise;
+    color: #333333;
+    font-size: 0.5rem;
+    text-align: start;
+    padding-left: 2rem ;
+    
+  }
+
+  .develop-skills{
+    width: 50%;
+    padding: 5%;
+
+  }
+
+  #design-bar{
+    background-color: orange;
+  }
+
+  .row{
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .softskills{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .projects{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+       
+  }
+
+  .cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .projects{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.cards-container{
+    margin-top: 2%;
+}
+
+.card-img-top{
+    padding: 10%;
+}
+
+.card{
+    text-decoration: none;
+}
+
+.card :hover{
+    text-decoration: none;
+    background-color: #e9ecef;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+
+@media (max-width: 767px) {
+    .title-container {
+        width: 100%;
+    }
+}
+
+
+
+
+  
+  
