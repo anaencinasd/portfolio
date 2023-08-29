@@ -1,173 +1,546 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ana Encinas - Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  </head>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Encinas - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
+<link rel="stylesheet" href="styles.css">
+</head>
+
 <body>
-   
-        <nav class="navbar fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Ana Encinas</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation"> 
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+  <nav class="navbar fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ana Encinas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Linkedin</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Github</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./portfolio.html">Spanish</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">English</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="main-container" id="main-container-1">
+    <div class="color-image">
+      <img src="./rsc/PINTURA.png" alt="Ana Encinas - Portfolio" height="400px">
+    </div>
+    <div class="title-container">
+      <h1>PORTFOLIO</h1>
+      <h3>FULLSTACK DEVELOPMENT</h3>
+      <h3>UX/UI DESIGN</h3>
+      <h3>COMMUNICATION</h3>
+    </div>
+
+  </div>
+  <div class="main-container" id="main-container-2">
+    <div class="about-me">
+      <h3>About Me</h3>
+      <p>
+        Hi there! I'm Ana, a <b>fullstack web developer with a master's degree in UX/UI design</b>.
+        I have skills in web development, both on the server-side and the client-side.
+        I'm proficient in both <b>backend and frontend</b> technologies. I have experience
+        in programming with CSS, HTML, JavaScript, React, PHP, and Laravel, as well
+        as handling databases with SQL. I also hold a degree in journalism and
+        specialized in institutional and corporate communication.
+      </p>
+      <p>
+
+        My passion lies in creating engaging and meaningful digital experiences
+        for users. I adopt a user-centered approach, which involves constantly considering
+        their needs and desires when designing any kind of experience. Through research, analysis,
+        and collaboration with users and the team, I can combine my design and development skills
+        to create innovative and effective solutions.
+      </p>
+      <p>
+        My goal is to exceed user expectations, surprise them, and delight them. With my UX design skills
+        and growing experience in frontend development, I can translate creative ideas into intuitive and
+        appealing interfaces. I'm passionate about continuous learning and applying new technologies and
+        techniques to deliver exceptional digital experiences.
+      </p>
+
+    </div>
+    <div class="quote">
+      <h4>
+        Combining design, DEVELOPMENT, and communication to create meaningful and impactful digital experiences
+      </h4>
+    </div>
+
+  </div>
+  <div>
+    <div class="skills">
+      <h3>HERE ARE SOME OF MY SKILLS</h3>
+
+      <div class="skills-container">
+        <div class="develop-skills">
+          <h4>Stacks and Frameworks</h4>
+
+
+
+          <div class="progress mt-1">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100">HTML</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+              aria-valuemax="100">CSS</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
+              aria-valuemax="100">PHP</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+              aria-valuemax="100">LARAVEL</div>
+          </div>
+
+          <div class="progress mt-1">
+            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+              aria-valuemax="100">REACT</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0"
+              aria-valuemax="100">JAVASCRIPT</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0"
+              aria-valuemax="100">SQL</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0"
+              aria-valuemax="100">GIT</div>
+          </div>
+        </div>
+        <div class="develop-skills">
+          <h4>Design and Digital Marketing</h4>
+          <div class="progress mt-1">
+            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 70%;" aria-valuenow="70"
+              aria-valuemin="0" aria-valuemax="100">FIGMA</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+              aria-valuemin="0" aria-valuemax="100">UX RESEARCH</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 75%;" aria-valuenow="75"
+              aria-valuemin="0" aria-valuemax="100">INFORMATION ARCHITECTURE</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 90%;" aria-valuenow="90"
+              aria-valuemin="0" aria-valuemax="100">COPYWRITING</div>
+          </div>
+          <div class="progress mt-1">
+            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 80%;" aria-valuenow="80"
+              aria-valuemin="0" aria-valuemax="100">SEO</div>
+          </div>
+
+        </div>
+
+
+      </div>
+<div class="softskills">
+                <h4>Soft Skills</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Agile Methodologies (Scrum, Kanban, etc.)</li>
+                            <li>Leadership</li>
+                            <li>Planning</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul>
+                            <li>Teamwork</li>
+                            <li>Communication Strategy and Writing</li>
+                            <li>Atomic Design</li>
+                            <li>Attention to Detail</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CV</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Linkedin</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Github</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Spanish</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">English</a>
-                    </li>
-                    
-                  </ul>
-                  
+    </div>
+
+  </div>
+  </div>
+  <div class="title-container2" id="cv">
+    <h3>Some Projects</h3>
+</div>
+<div class="cards-container design">
+    <div class="skills">
+        <div class="projects">
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="true" id="design-tab" href="#">Design</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="frontend-tab">Frontend</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="backend-tab">Backend</a>
+                        </li>
+                    </ul>
                 </div>
+
+                <div class="cards-container design">
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <a href="https://drive.google.com/drive/folders/1KjpY6T7zt1PPhD_FASCdvdAoOPBjhndR?usp=sharing">
+                                <div class="card h-100">
+                                    <img src="./rsc/heycall-high-resolution-logo-color-on-transparent-background.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">UX/UI DESIGN FOR VIDEO CALL APP</h5>
+                                        <p class="card-text">Research and design proposal for a video communication app, focusing on user needs.</p>
+                                    </div>
+
+                                    <div class="card-footer text-muted text-center">
+                                        <small class="text-muted">Interaction Design</small>
+                                        <label for="">UX/UI DESIGN</label>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://drive.google.com/drive/folders/1pBjhpc4uUZh3rqQstjSx5FUV1fQczepF?usp=sharing">
+                                <div class="card h-100">
+                                    <img src="./rsc/in-edit-2022.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">ARCHITECTURE DEFINITION FOR IN-EDIT APP</h5>
+                                        <p class="card-text">Design of the In-EditConnect application for a complete digital festival experience.</p>
+                                    </div>
+
+                                    <div class="card-footer text-muted text-center">
+                                        <small class="text-muted">Information Architecture</small>
+                                        <label for="">UX/UI DESIGN</label>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://drive.google.com/drive/folders/1cOFLBvWhtkZG400sCjRxvibGg4RO4XWf?usp=sharing">
+                                <div class="card h-100">
+                                    <img src="./rsc/ux-research.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">UX RESEARCH FOR SHARED LIVING SPACE APP</h5>
+                                        <p class="card-text">UX research process to design a product that addresses the challenge of shared living spaces.</p>
+                                    </div>
+
+                                    <div class="card-footer">
+                                        <small class="text-muted">UX Research</small>
+                                        <label for="">UX/UI DESIGN</label>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+      <a href="https://drive.google.com/drive/folders/1tRfk2azI7fefgvlG_NSv3o7QGSUUnWpq?usp=sharing">
+          <div class="card h-100">
+              <img src="./rsc/prototyping.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">PROTOTYPING AND EVALUATION OF BIKI APP</h5>
+                  <p class="card-text">Initial prototype proposal for the BIKI mobility app
+                      and evaluation using the thinking aloud method to introduce improvements.</p>
               </div>
-            </div>
-        </nav>
-        <div class="main-container" id="main-container-1">
-            <div class="color-image">
-            <img src="./rsc/PINTURA.png" alt="Ana Encinas - Portfolio" height="400px">
-        </div>
-            <div class="title-container">
-                <h1>PORTFOLIO</h1>
-                <h3>FULLSTACK DEVELOPMENT</h3>
-                <h3>UX/UI DESIGN</h3>
-                <h3>COMMUNICATION</h3>
-            </div>
-
-        </div>
-        <div class="main-container" id="main-container-2">
-            <div class="about-me">
-                <h3>About Me</h3>
-                <p>
-                    Hi there! I'm Ana, a <b>fullstack web developer with a master's degree in UX/UI design</b>.
-                     I have skills in web development, both on the server-side and the client-side.
-                     I'm proficient in both <b>backend and frontend</b> technologies. I have experience
-                    in programming with CSS, HTML, JavaScript, React, PHP, and Laravel, as well 
-                    as handling databases with SQL. I also hold a degree in journalism and 
-                    specialized in institutional and corporate communication.
-                </p>
-            <p>
-
-                     My passion lies in creating engaging and meaningful digital experiences 
-                     for users. I adopt a user-centered approach, which involves constantly considering
-                     their needs and desires when designing any kind of experience. Through research, analysis,
-                     and collaboration with users and the team, I can combine my design and development skills
-                      to create innovative and effective solutions.
-                    </p>
-                <p>
-                      My goal is to exceed user expectations, surprise them, and delight them. With my UX design skills
-                      and growing experience in frontend development, I can translate creative ideas into intuitive and 
-                      appealing interfaces. I'm passionate about continuous learning and applying new technologies and
-                      techniques to deliver exceptional digital experiences.
-                </p>
-
-            </div>
-            <div class="quote">
-<h4>
-    Combining design, DEVELOPMENT, and communication to create meaningful and impactful digital experiences
-</h4>
-            </div>
-            
-        </div>
-        <div>
-            <div class="skills">
-                <h3>HERE ARE SOME OF MY SKILLS</h3>
-                
-                <div class="skills-container">
-                    <div class="develop-skills">
-                        <h4>Stacks and Frameworks</h4>
-
-                    
-                    
-                    <div class="progress mt-1">
-                      <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML</div>
-                    </div>
-                    <div class="progress mt-1">
-                      <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">CSS</div>
-                    </div>
-                    <div class="progress mt-1">
-                        <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">PHP</div>
-                      </div>
-                      <div class="progress mt-1">
-                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">LARAVEL</div>
-                      </div>
-                      
-                      <div class="progress mt-1">
-                        <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">REACT</div>
-                      </div>
-                      <div class="progress mt-1">
-                        <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">JAVASCRIPT</div>
-                      </div>
-                      <div class="progress mt-1">
-                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">SQL</div>
-                      </div>
-                      <div class="progress mt-1">
-                        <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">GIT</div>
-                      </div>
-                    </div>
-                    <div class="develop-skills">
-                        <h4>Design and Digital Marketing</h4>
-                        <div class="progress mt-1">
-                            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">FIGMA</div>
-                          </div>
-                          <div class="progress mt-1">
-                            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">UX RESEARCH</div>
-                          </div>
-                          <div class="progress mt-1">
-                            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">INFORMATION ARCHITECTURE</div>
-                          </div>
-                          <div class="progress mt-1">
-                            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">COPYWRITING</div>
-                          </div>
-                          <div class="progress mt-1">
-                            <div class="progress-bar" id="design-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">SEO</div>
-                          </div>
-
-                    </div>
-                
-
-                      </div>
-                    
+              <div class="card-footer">
+                  <small class="text-muted">Prototyping</small>
+                  <label for="">UX/UI DESIGN</label>
+              </div>
+          </div>
+      </a>
+  </div>
+  <div class="col">
+      <a href="https://drive.google.com/file/d/1sn1qV4RnhDBvwDp1of1b0p0oPkBJ3DOJ/view?usp=sharing">
+          <div class="card h-100">
+              <img src="./rsc/canva.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">USER EVALUATION OF CANVA APP</h5>
+                  <p class="card-text">The beginning of a user evaluation of the web design tool Canva.</p>
+              </div>
+              <div class="card-footer">
+                  <small class="text-muted">Usability</small>
+                  <label for="">UX/UI DESIGN</label>
+              </div>
+          </div>
+      </a>
+  </div>
+  <div class="col">
+      <a href="https://drive.google.com/file/d/1LEDV9u1uz2TiCvFUrvrA6vaUZ7ZpFGZV/view?usp=sharing">
+          <div class="card h-100">
+              <img src="./rsc/everyday-objects.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">USER-CENTERED DESIGN FOR EVERYDAY OBJECTS</h5>
+                  <p class="card-text">Proposal for a new design for traditional vending machines,
+                      addressing user needs.</p>
+              </div>
+              <div class="card-footer">
+                  <small class="text-muted">Prototyping</small>
+                  <label for="">UX/UI DESIGN</label>
+              </div>
+          </div>
+      </a>
+  </div>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+      <a href="https://www.figma.com/file/NlgLBsX1YWXZbAxKRJejCE/T2-R%C3%A9plica-de-Netflix?type=design&node-id=0%3A1&mode=design&t=g7Tc7A3a2pjfUfYK-1">
+          <div class="card h-100">
+              <img src="./rsc/netflix.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">NETFLIX REPLICA ON FIGMA</h5>
+                  <p class="card-text">Figma prototyping work involving replicating the interface of the streaming platform.</p>
+              </div>
+              <div class="card-footer">
+                  <small class="text-muted">Prototyping</small>
+                  <label for="">UX/UI DESIGN</label>
+              </div>
+          </div>
+      </a>
+  </div>
+  <div class="col">
+      <a href="https://drive.google.com/file/d/1qAqGS_3Q_Y90I5unceCldL8d1dIh9X-5/view?usp=sharing">
+          <div class="card h-100">
+              <img src="./rsc/scan-now.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">SCAN NOW APP USABILITY EVALUATION REPORT</h5>
+                  <p class="card-text">Identify areas for improvement that will enhance the user experience of the application.</p>
+              </div>
+              <div class="card-footer">
+                  <small class="text-muted">Usability</small>
+                  <label for="">UX/UI DESIGN</label>
+              </div>
+          </div>
+      </a>
+  </div>
+  <div class="col">
+      <a href="https://www.figma.com/file/wa27GRYBvbtCCQTLg95rC9/Untitled?type=design&node-id=2%3A9&mode=design&t=GMw6SdoNk39ks3aT-1">
+          <div class="card h-100">
+              <img src="./rsc/anunciarte.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">E-COMMERCE APP PROTOTYPING: ANUNCIARTE</h5>
+                  <p class="card-text">Design proposal for a buy-and-sell application for objects and artwork.
+                      Project created during participation in the 2023 Factoría F5 Hackathon.
+                  </p>
+              </div>
+              <div class="card-footer">
+                  <small class="text-muted">Prototyping</small>
+                  <label for="">UX/UI DESIGN</label>
+              </div>
+          </div>
+      </a>
+  </div>
+</div>
+<div class="cards-container frontend hidden">
+  <div>
+      <a href="https://github.com/anaencinasd" target="_blank" class="github-button">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          View my GitHub profile
+      </a>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+          <a href="https://github.com/anaencinasd/replica-web-con-react">
+              <div class="card h-100">
+                  <img src="./rsc/react.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">REPLICA OF WEBSITE USING REACT</h5>
+                      <p class="card-text">Development using React of a replica of a website, using components and routes.</p>
                   </div>
+                  <div class="card-footer text-muted text-center">
+                      <small class="text-muted">React | Javascript | CSS</small>
+                      <label for="">FRONTEND</label>
+                  </div>
+              </div>
+          </a>
+      </div>
+      <div class="col">
+          <a href="https://github.com/anaencinasd/covid-19-tracker">
+              <div class="card h-100">
+                  <img src="./rsc/covid.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">COVID TRACKER</h5>
+                      <p class="card-text">Design of an app for tracking COVID cases worldwide using APIs.</p>
+                  </div>
+                  <div class="card-footer text-muted text-center">
+                      <small class="text-muted">React | CSS | Javascript | API</small>
+                      <label for="">FRONTEND</label>
+                  </div>
+              </div>
+          </a>
+      </div>
+      <div class="col">
+          <a href="https://github.com/anaencinasd/Anunciarte">
+              <div class="card h-100">
+                  <img src="./rsc/anunciarte.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title">ANUNCIARTE</h5>
+                      <p class="card-text">
+                          Marketplace that allows buying and selling of items and artworks. It's in the development process.
+                      </p>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">React | CSS | Javascript | API</small>
+                      <label for="">FRONTEND | BACKEND</label>
+                  </div>
+              </div>
+          </a>
+      </div>
+  </div>
+</div>
+<div class="cards-container backend hidden">
+  <div>
+      <a href="https://github.com/anaencinasd" target="_blank" class="github-button">
+          <i class="fab fa-github" aria-hidden="true"></i>
+          View my GitHub profile
+      </a>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+          <a href="https://github.com/anaencinasd/php-todolist">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h5 class="card-title">TO DO LIST</h5>
+                      <p class="card-text">PHP development of a server-side to-do list. The frontend part is developed with Tailwind.</p>
+                  </div>
+                  <div class="card-footer text-muted text-center">
+                      <small class="text-muted">PHP | TAILWIND | MYSQL | SQL</small>
+                      <label for="">BACKEND</label>
+                  </div>
+              </div>
+          </a>
+      </div>
+      <div class="col">
+          <a href="https://github.com/anaencinasd/talenthub">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h5 class="card-title">TALENT HUB</h5>
+                      <p class="card-text">Development of a student, bootcamps, and staff manager for Factoría F5.</p>
+                  </div>
+                  <div class="card-footer text-muted text-center">
+                      <small class="text-muted">PHP | TAILWIND | MYSQL | SQL</small>
+                      <label for="">BACKEND</label>
+                  </div>
+              </div>
+          </a>
+      </div>
+      <div class="col">
+          <a href="https://drive.google.com/drive/folders/1cOFLBvWhtkZG400sCjRxvibGg4RO4XWf?usp=sharing">
+              <div class="card h-100">
+                  <div class="card-body">
+                      <h5 class="card-title">E-COMMERCE - SPEEDBITES</h5>
+                      <p class="card-text">Laravel development of an e-commerce platform for home delivery at SpeedBites restaurant, with user and admin views.</p>
+                  </div>
+                  <div class="card-footer">
+                      <small class="text-muted">LARAVEL | ARTISAN | PHP | TAILWIND | MYSQL | SQL</small>
+                      <label for="">BACKEND</label>
+                  </div>
+              </div>
+          </a>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="main-container" id="main-container-2">
+  <div class="title-container2" id="Contact">
+      <h3>Contact</h3>
+  </div>
+  
+  <div class="contact-container">
+      <div class="logo-container">
+          <a href="mailto:ana.encinasdiaz@gmail.com"></a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+              <path fill="#333" d="M4 20q-.825 0-1.413-.588T2 18V6q0-.825.588-1.413T4 4h16q.825 0 1.413.588T22 6v12q0 .825-.588 1.413T20 20H4Zm8-7L4 8v10h16V8l-8 5Zm0-2l8-5H4l8 5ZM4 8V6v12V8Z"/>
+          </svg>
+          <h5>Contact via email</h5>
+      </div>
+      
+      <div class="logo-container">
+          <a href="https://t.me/anaencinasd"></a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 256 256">
+              <defs>
+                  <linearGradient id="logosTelegram0" x1="50%" x2="50%" y1="0%" y2="100%">
+                      <stop offset="0%" stop-color="#2AABEE"/>
+                      <stop offset="100%" stop-color="#229ED9"/>
+                  </linearGradient>
+              </defs>
+              <path fill="url(#logosTelegram0)" d="M128 0C94.06 0 61.48 13.494 37.5 37.49A128.038 128.038 0 0 0 0 128c0 33.934 13.5 66.514 37.5 90.51C61.48 242.506 94.06 256 128 256s66.52-13.494 90.5-37.49c24-23.996 37.5-56.576 37.5-90.51c0-33.934-13.5-66.514-37.5-90.51C194.52 13.494 161.94 0 128 0Z"/>
+              <path fill="#FFF" d="M57.94 126.648c37.32-16.256 62.2-26.974 74.64-32.152c35.56-14.786 42.94-17.354 47.76-17.441c1.06-.017 3.42.245 4.96 1.49c1.28 1.05 1.64 2.47 1.82 3.467c.16.996.38 3.266.2 5.038c-1.92 20.24-10.26 69.356-14.5 92.026c-1.78 9.592-5.32 12.808-8.74 13.122c-7.44.684-13.08-4.912-20.28-9.63c-11.26-7.386-17.62-11.982-28.56-19.188c-12.64-8.328-4.44-12.906 2.76-20.386c1.88-1.958 34.64-31.748 35.26-34.45c.08-.338.16-1.598-.6-2.262c-.74-.666-1.84-.438-2.64-.258c-1.14.256-19.12 12.152-54 35.686c-5.1 3.508-9.72 5.218-13.88 5.128c-4.56-.098-13.36-2.584-19.9-4.708c-8-2.606-14.38-3.984-13.82-8.41c.28-2.304 3.46-4.662 9.52-7.072Z"/>
+          </svg>
+          <h5>Contact via Telegram</h5>
+      </div>
+      
+      <div class="logo-container">
+          <a href="https://www.linkedin.com/in/anaencinasd/"></a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 128 128">
+              <path fill="#0076b2" d="M116 3H12a8.91 8.91 0 0 0-9 8.8v104.42a8.91 8.91 0 0 0 9 8.78h104a8.93 8.93 0 0 0 9-8.81V11.77A8.93 8.93 0 0 0 116 3z"/>
+              <path fill="#fff" d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 1 1-10.5 10.49a10.5 10.5 0 0 1 10.5-10.49m20.41 29h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z"/>
+          </svg>
+          <h5>Contact via Linkedin</h5>
+      </div>
+  </div>
+  
+  <div>
+</div>
 
-            </div>
-        </div>
-    
-    
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</body>    
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
 </html>

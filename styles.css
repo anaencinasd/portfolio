@@ -184,7 +184,7 @@ h4{
   }
 
   .projects{
-    width: 65%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -240,6 +240,26 @@ a{
   margin-right: 10px;
   vertical-align: middle;
 }
+
+.contact-container{
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 5%;
+  gap: 7%;
+  justify-content: center;
+}
+
+.logo-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
 
 @media (max-width: 767px) {
     .title-container {
