@@ -31,6 +31,7 @@ h4{
     height: auto;
 }
 
+
 .navbar-brand {
     font-size: 1rem;
     padding-top: 0.25rem; 
@@ -132,18 +133,22 @@ h4{
 
   }
 
+  .progress{
+    --bs-progress-height: 1.5rem;
+  }
+
   .progress-bar{
     background-color: turquoise;
     color: #333333;
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     text-align: start;
     padding-left: 2rem ;
     
   }
 
   .develop-skills{
-    width: 50%;
-    padding: 5%;
+    width: 100%;
+    padding: 2%;
 
   }
 
@@ -155,6 +160,7 @@ h4{
     display: flex;  
     flex-wrap: wrap;
     justify-content: center;
+    margin: 1%;
   }
 
   .softskills{
@@ -191,6 +197,9 @@ h4{
 
 .card-img-top{
     padding: 10%;
+    width: 90%; 
+    height: 150px; 
+    object-fit: cover;
 }
 
 .card{
@@ -207,6 +216,30 @@ a{
     color: black
 }
 
+.card-header {
+  background-color: white;
+}
+
+.nav{
+  --bs-nav-link-color:none;
+}
+
+.github-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.github-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
 
 @media (max-width: 767px) {
     .title-container {

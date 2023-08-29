@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ana Encinas - Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+VizFzZuUXh4Crr4mCnn7PAea5TpC5Bb1dFFWFPtXlZs1T9" crossorigin="anonymous">
+
   </head>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -205,12 +207,27 @@
         </div>
         <div class="title-container2">
         <h3>Algunos proyectos</h3>
-      </div>
+      </div class="cards-container design">
         <div class="skills">
             
             <div class="projects">
-                
-                <div class="cards-container">
+              <div class="card text-center">
+                <div class="card-header">
+                  <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="true" id="design-tab" href="#">Diseño</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="frontend-tab">Frontend</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="backend-tab">Backend</a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="cards-container design">
+                  <div >
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                             <a href="https://drive.google.com/drive/folders/1KjpY6T7zt1PPhD_FASCdvdAoOPBjhndR?usp=sharing">
@@ -271,7 +288,7 @@
                       
 
                 </div>
-                <div class="cards-container">
+                <!-- <div class="cards-container design"> -->
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
                           <a href="https://drive.google.com/drive/folders/1tRfk2azI7fefgvlG_NSv3o7QGSUUnWpq?usp=sharing">
@@ -323,11 +340,11 @@
                         </a>
                         </div>
                         
-                      </div>
+                     
                       
 
                 </div>
-                <div class="cards-container">
+                <!-- <div class="cards-container design"> -->
                   <div class="row row-cols-1 row-cols-md-3 g-4">
                       <div class="col">
                         <a href="https://www.figma.com/file/NlgLBsX1YWXZbAxKRJejCE/T2-R%C3%A9plica-de-Netflix?type=design&node-id=0%3A1&mode=design&t=g7Tc7A3a2pjfUfYK-1">
@@ -377,19 +394,160 @@
                         </div>
                       </a>
                       </div>
-                      
                     </div>
-                    
+                      
+               
+                    </div>
+                    <div class="cards-container frontend hidden">
+                      <div>
+                        <a href="https://github.com/anaencinasd" target="_blank" class="github-button">
+                          <i class="fab fa-github" aria-hidden="true"></i>
+                          Ver mi perfil de GitHub
+                        </a>
+                      </div>
+                      <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <a href="https://github.com/anaencinasd/replica-web-con-react">
+                          <div class="card h-100">
+                            <img src="./rsc/react.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">RÉPLICA DE SITIO WEB USANDO REACT</h5>
+                              <p class="card-text">Desarrollo utilizando React de una réplica de una web, usando componentes y rutas.</p>
+                              
+                            </div>
+                            
+                            <div class="card-footer text-muted text-center">
+                              <small class="text-muted">React | Javascript | CSS</small>
+                              <label for="">FRONTEND</label>
+                            </div>
+                            
+                          </div>
+                        </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://github.com/anaencinasd/covid-19-tracker">
+                          <div class="card h-100">
+                            <img src="./rsc/covid.png" class="card-img-top" alt="..." >
+                            <div class="card-body">
+                              <h5 class="card-title">COVID TRACKER</h5>
+                              <p class="card-text">Diseño de APP para el seguimiento de casos del COVID a nivel mundial usando APIs.</p>
+                            </div>
+                            
+                            <div class="card-footer text-muted text-center">
+                              <small class="text-muted">React | CSS | Javascript | API</small>
+                              <label for=""> FRONTEND</label>
+                            </div>
+                            
+                          </div>
+                        </a>
+                        </div>
+                        <div class="col">
+                            <a href="https://github.com/anaencinasd/Anunciarte">
+                          <div class="card h-100">
+                            <img src="./rsc/anunciarte.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">ANUNCIARTE</h5>
+                              <p class="card-text">
+              Marketplace que permite la compra y venta de artículos y obras de arte. Está en proceso de desarrollo. 
+                              </p>
+                            </div>
+                            
+                            <div class="card-footer">
+                              <small class="text-muted">React | CSS | Javascript | API</small>
+                              <label for="">FRONTEND | BACKEND</label>
+                            </div>
+                            
+                          </div>
+                        </a>
+                        </div>
+                      </div>
+                      
 
+                </div>
+                <div class="cards-container backend hidden">
+                  <div>
+                    <a href="https://github.com/anaencinasd" target="_blank" class="github-button">
+                      <i class="fab fa-github" aria-hidden="true"></i>
+                      Ver mi perfil de GitHub
+                    </a>
+                  </div>
+                  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <a href="https://github.com/anaencinasd/php-todolist">
+                      <div class="card h-100">
+                        
+                        <div class="card-body">
+                          <h5 class="card-title">TO DO LIST</h5>
+                          <p class="card-text">Desarrollo con PHP de una lista de tareas del lado del servidor. La parte de frontend está desarrollada con Tailwind</p>
+                        </div>
+                        
+                        <div class="card-footer text-muted text-center">
+                          <small class="text-muted">PHP | TAILWIND | MYSQL | SQL</small>
+                          <label for="">BACKEND</label>
+                        </div>
+                        
+                      </div>
+                    </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://github.com/anaencinasd/talenthub">
+                      <div class="card h-100">
+                        
+                        <div class="card-body">
+                          <h5 class="card-title">TALENT HUB</h5>
+                          <p class="card-text">Desarrollo de gestor de alumnos, bootcamps y staff para Factoría F5</p>
+                        </div>
+                        
+                        <div class="card-footer text-muted text-center">
+                          <small class="text-muted">PHP | TAILWIND | MYSQL | SQL </small>
+                          <label for="">BACKEND</label>
+                        </div>
+                        
+                      </div>
+                    </a>
+                    </div>
+                    <div class="col">
+                        <a href="https://drive.google.com/drive/folders/1cOFLBvWhtkZG400sCjRxvibGg4RO4XWf?usp=sharing">
+                      <div class="card h-100">
+                        
+                        <div class="card-body">
+                          <h5 class="card-title">E-COMMERCE - SPEEDBITES</h5>
+                          <p class="card-text">Desarrollo en Laravel de e-commerce para reparto a domicilio en el restaurante SpeedBites con vistas de usuario y administrador.</p>
+                        </div>
+                        
+                        <div class="card-footer">
+                          <small class="text-muted">LARAVEL | ARTISAN | PHP | TAILWIND | MYSQL | SQL /small>
+                          <label for="">BACKEND</label>
+                        </div>
+                        
+                      </div>
+                    </a>
+                    </div>
+                  </div>
+                      
+                       
+                </div>
+                     </div>
+                     
+                     
+                  </div>
+                 
+                  
               </div>
-            </div>
-            
-
-
-        </div>
+              
+      
+                      </div>
+              </div>
+              
+                
+                
+      
+        
+          
     
     
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="index.js"></script>
 </body>    
 </body>
 </html>
